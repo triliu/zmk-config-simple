@@ -1,0 +1,14 @@
+file_format: "1"
+id: simple 
+name: simple
+type: shield
+url: https://github.com/triliu/simple
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - simple_left
+  - simple_right
